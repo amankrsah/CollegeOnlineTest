@@ -1,0 +1,138 @@
+body {
+    /* background-image: url("/bg.jpg"); */
+    background-image: linear-gradient(rgb(0, 183, 255), rgb(235, 235, 235));
+    /* Used if the image is unavailable */
+    height: 100vh;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+
+/* This is for varibles */
+
+:root {
+    --primary: #2596be;
+    --secondary: #ffffff;
+}
+
+
+/*-------------------------- Variables ends here------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* --------------------------------------------------- Basic classes styling starts here -------------------------------------- */
+
+.btn {
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1px gray solid;
+    color: var(--secondary);
+    box-shadow: 0px 0px 4px rgb(71, 71, 71);
+}
+
+.btn:hover {
+    transition: 300ms;
+    box-shadow: 0px 0px 10px rgb(37, 37, 37);
+    /* font-weight: bolder; */
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* --------------------------------------------------- Navigation styling starts here -------------------------------------- */
+
+nav ul {
+    list-style-type: none;
+    height: 45px;
+    padding: 17px 16px 0px 10px;
+    background-color: var(--primary);
+    margin: -9px;
+    color: var(--secondary);
+    font: 30px italic;
+}
+
+nav img {
+    position: absolute;
+    left: 10px;
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+}
+
+nav ul li {
+    position: relative;
+    left: 600px;
+    font: 20px sans-serif;
+    font-weight: bold;
+    float: left;
+    margin: 0px 15px 0px 15px;
+    text-shadow: 0px 0px 2px rgb(148, 148, 148);
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    transition: 200ms;
+    text-shadow: 3px 3px 5px rgb(51, 51, 51);
+}
+
+
+/* --------------------------------------------------- Navigation styling ends here -------------------------------------- */
+
+
+/* --------------------------------------------------- Container Styling starts here -------------------------------------- */
+
+#loginForm {
+    width: 40vw;
+    margin: auto;
+    height: 480px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(37, 37, 37);
+}
+
+#loginForm div {
+    color: var(--primary);
+    font-size: 40px;
+}
+
+#loginForm input {
+    width: 80%;
+    height: 50px;
+    margin: 2%;
+    font-size: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--primary);
+    outline: none;
+}
+
+#loginForm input:focus {
+    font-size: 25px;
+    transition: 300ms;
+}
+
+#loginForm #btn {
+    color: white;
+    font-size: 20px;
+    border-radius: 20PX;
+    background-color: var(--primary);
+    padding: 6px 8px;
+    width: 30%;
+}
+
+#loginForm #btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px rgb(37, 37, 37);
+    transition: 300ms;
+}
