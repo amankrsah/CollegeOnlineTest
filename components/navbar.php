@@ -6,6 +6,7 @@
         <li>Contact us</li>
         <li>Login</li>
         <li id="login">Register</li>
+        <li>Contact Us</li>
     </ul>
 </nav>
     
