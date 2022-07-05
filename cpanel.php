@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <?php include("../Anurag/components/navbar1.php") ?>
+        <?php include("../Anurag/components/navbar.php") ?>
         <div class="main">
             <div class="logo">
                 <img src="columbia.jpg" alt="loading...">
@@ -31,6 +31,7 @@
             <div class="box" id="box-6"><img src="columbia.jpg" alt="loading..."><a href="">Lorem</a></div>
             <div class="box" id="box-7"><img src="columbia.jpg" alt="loading..."><a href="">Lorem</a></div>
             <div class="box" id="box-8"><img src="columbia.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-9"><img src="columbia.jpg" alt="loading..."><a href="">Lorem</a></div>
         </div>
     </header>
 </body>
