@@ -54,14 +54,14 @@
 } 
 .boxes{
     display: flex;
-    width: 100%;
+    width: 60%;
     height: 90vh;
     margin: auto;
     flex-wrap: wrap;
     /* border: 2px solid black; */
     position: absolute;
     top: 8%;
-    /* left: 15%;    */
+    left: 18%;   
     justify-content: space-evenly;
     
 }
@@ -70,10 +70,9 @@
     flex-shrink: 100%;
     /* justify-content: center;
     align-items: center; */
-    margin: 80px;
-    padding: 4px;
-    width: 290px;
-    height: 150px;
+    margin: 49px;
+    width: 175px;
+    height: 175px;
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 0px 0px 11px black;
@@ -88,8 +87,8 @@
 .box a{
     text-decoration: none;
     position: relative;
-    top: 70%;
-    left: 5%;
+    top: 72%;
+    left: -3%;
     font-family: var(--font);
     font-weight: bolder;
     font-size: 27px;
