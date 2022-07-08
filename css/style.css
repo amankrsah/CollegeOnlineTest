@@ -8,8 +8,12 @@
 
 body {
     /* background-image: url("/bg.jpg"); */
+<<<<<<< HEAD
     /* background-image: linear-gradient(var(--primary), rgb(235, 235, 235)); */
     background-image: url(http://localhost/php_/College_project/assets/bg.jpg);
+=======
+    background-image: linear-gradient(rgb(0, 183, 255), rgb(235, 235, 235));
+>>>>>>> 6e1bf87e1cded7cb020fa69313c0881efd4e6e7b
     background-attachment: fixed;
     /* Used if the image is unavailable */
     height: 100vh;
