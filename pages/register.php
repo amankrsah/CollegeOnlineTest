@@ -124,7 +124,7 @@
         padding: 5vw;
         padding-right: 1vw;
         margin: auto;
-        background-color: white;
+        background-color: var(--cont_color);
         border-radius: 10px;
         box-shadow: 0px 0px 44px rgb(37, 37, 37);
             
@@ -185,9 +185,9 @@
                      <input type="text" onfocus="(this.type='date')" class="d1" placeholder="Registeration Date">    
                      <input type="text" placeholder="Branch" class="b1">
     </div>  
-    <div id="reg_btn"><center>Register</center></div>  
+    <div id="reg_btn"><center><a href="http://localhost/php_/College_project/">Register</a></center></div>  
 </form>
-    </div>
+</div>
     
 </body>
 </html>
