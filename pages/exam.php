@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="http://localhost/php_/College_project/assets/logo.jpg">
     <title>MCQ's Test</title>
     <style>
     #ques_ans {
@@ -67,7 +68,9 @@
 </head>
 <body>
     <?php include("../components/navbar.php") ?>
-    
+    <!-- <?php include('http://localhost/php_/College_project/components/navbar.php') ?> -->
+    <div class = "space_top"></div>
+
     <div id="ques_ans">
         <?php
         for ($i=1; $i < 11; $i++) { 
@@ -81,5 +84,7 @@
                 </div>';}
             ?>
     </div>
+     <!-- <?php include('http://localhost/php_/College_project/components/navbar.php') ?> -->
+     <?php include("../components/footer.php") ?>
 </body>
 </html>

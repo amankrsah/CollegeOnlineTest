@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register to Columbia</title>
+    <link rel="shortcut icon" href="http://localhost/php_/College_project/assets/logo.jpg">
     <link rel="stylesheet" href="../css/style.css">
     <style>
         #Name{
@@ -152,7 +153,10 @@
     </style>
 </head>
 <body>       
-    <?php include('../components/navbar.php') ?>
+   <?php include('../components/navbar.php') ?>
+   <!-- <?php include('http://localhost/php_/College_project/components/navbar.php') ?> -->
+   <div class = "space_top"></div>
+
 <form id="border">
     <h1 style="color: var(--primary);font-size: 40px; text-align:center">REGISTRATION</h1>
      <div class="input_style" id="Name">
@@ -188,6 +192,8 @@
     <div id="reg_btn"><center><a href="http://localhost/php_/College_project/">Register</a></center></div>  
 </form>
 </div>
+<!-- <?php include('http://localhost/php_/College_project/components/navbar.php') ?> -->
+<?php include("../components/footer.php") ?>
     
 </body>
 </html>
