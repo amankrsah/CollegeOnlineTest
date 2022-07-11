@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="http://localhost/php_/College_project/assets/logo.jpg">
+    <link rel="shortcut icon" href="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>Control panel</title>
@@ -123,7 +123,7 @@
 
 <body>
     <header>
-    <!-- <?php include('http://localhost/php_/College_project/components/navbar.php') ?> -->
+    <!-- <?php include('http://localhost/php_/CollegeOnlineTest/components/navbar.php') ?> -->
         <?php include("../components/navbar.php") ?>
 
         <div class="main">
@@ -133,15 +133,15 @@
             <h1>Columbia</h1>
         </div>
         <div class="boxes">
-            <div class="box" id="box-1"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
-            <div class="box" id="box-2"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
-            <div class="box" id="box-3"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
-            <div class="box" id="box-4"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
-            <div class="box" id="box-5"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
-            <div class="box" id="box-6"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
-            <div class="box" id="box-7"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
-            <div class="box" id="box-8"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
-            <div class="box" id="box-9"><img src="http://localhost/php_/College_project/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-1"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-2"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-3"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-4"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-5"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-6"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-7"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-8"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
+            <div class="box" id="box-9"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><a href="">Lorem</a></div>
         </div>
     </header>
 </body>

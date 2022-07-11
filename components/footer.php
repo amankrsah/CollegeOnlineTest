@@ -1,6 +1,6 @@
 <footer>
         <div>
-            <img src="http://localhost/php_/College_project/assets/logo.jpg" alt="logo">
+            <img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="logo">
             <p style="color: gray;">©Copyright 2020. All Rights Reserved.</p>
         </div>
         <div>
@@ -14,17 +14,17 @@
         <div>
             <ul>
                 <li class="foot_box">Expertise</li>
-                <li>Transporting</li>
-                <li>Warehousing</li>
+                <li>Testing</li>
+                <li>Testing</li>
             </ul>
         </div>
         <div>
             <ul>
                 <li class="foot_box">Support</li>
                 <li>E-mail</li>
-                <li>devloktransport108@gmail.com</li>
+                <li>columbia@email.com</li>
                 <li>Phone</li>
-                <li>+91 8085698100</li>
+                <li>+91 321464231314</li>
             </ul>
         </div>
         <div>

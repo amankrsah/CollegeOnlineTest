@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
     /* background-image: url("/bg.jpg"); */
     /* background-image: linear-gradient(var(--primary), rgb(235, 235, 235)); */
-    background-image: url(http://localhost/php_/College_project/assets/bg.jpg);
+    background-image: url(http://localhost/php_/CollegeOnlineTest/assets/bg.jpg);
     background-attachment: fixed;
     /* Used if the image is unavailable */
     height: 100vh;
@@ -92,7 +92,7 @@ nav img {
 }
 
 nav ul li {
-    color: var(--primary);
+    color: rgb(5, 51, 255);
     position: relative;
     left: 30%;
     font: 20px sans-serif;
@@ -105,15 +105,11 @@ nav ul li {
     border-radius: 10px;
 }
 
-nav ul a {
-    color: rgb(40, 79, 255);
-}
-
 nav ul li:hover {
     cursor: pointer;
     transition: 200ms;
     background-color: rgba(219, 226, 255, 0.502);
-    color: rgb(126, 149, 255);
+    color: rgb(5, 51, 255);
     border-radius: 10px;
     border: 1px solid rgb(84, 116, 255);
 }

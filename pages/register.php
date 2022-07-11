@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register to Columbia</title>
-    <link rel="shortcut icon" href="http://localhost/php_/College_project/assets/logo.jpg">
+    <link rel="shortcut icon" href="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg">
     <link rel="stylesheet" href="../css/style.css">
     <style>
         #Name{
@@ -154,7 +154,7 @@
 </head>
 <body>       
    <?php include('../components/navbar.php') ?>
-   <!-- <?php include('http://localhost/php_/College_project/components/navbar.php') ?> -->
+   <!-- <?php include('http://localhost/php_/CollegeOnlineTest/components/navbar.php') ?> -->
    <div class = "space_top"></div>
 
 <form id="border">
@@ -189,10 +189,10 @@
                      <input type="text" onfocus="(this.type='date')" class="d1" placeholder="Registeration Date">    
                      <input type="text" placeholder="Branch" class="b1">
     </div>  
-    <div id="reg_btn"><center><a href="http://localhost/php_/College_project/">Register</a></center></div>  
+    <a href="http://localhost/php_/CollegeOnlineTest/"><div id="reg_btn"><center>Register</center></div> </a> 
 </form>
 </div>
-<!-- <?php include('http://localhost/php_/College_project/components/navbar.php') ?> -->
+<!-- <?php include('http://localhost/php_/CollegeOnlineTest/components/navbar.php') ?> -->
 <?php include("../components/footer.php") ?>
     
 </body>
