@@ -14,110 +14,120 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>Control panel</title>
     <style>
-        *{
-    padding: 0;
-    margin: 0;
-    /* background-color: #2596be; */
-}
-:root{
-    --font : 'Ubuntu', sans-serif;
-}
-.main h1{
-    position: absolute;
-    top: 13px;
-    left: 105px;
-    color: #ffffff;
-    text-shadow: -3px 6px 2px #393131;
-    font-family: var(--font);
-}
-.logo img{
-    position: absolute;
-    width: 69px;
-    top: 13px;
-    left: 2%;
-}
-/*------------------------------- Css for navigation bar------------------------------------- */
-.nav{
-    background-color: black;
-    /* border: 2px solid black; */
-    width: 100%;
-    height: 55px;
-}
-.nav ul {
-    float: right;
-    list-style: none;    
-    margin-top: 12px;
+        * {
+            padding: 0;
+            margin: 0;
+            /* background-color: #2596be; */
+        }
 
-}
-.nav ul li{
-    display: inline-block; 
-}
-.nav ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    /* text-shadow: 0px 2px 0px #565656; */
-    /* text-shadow: -3px -2px 2px #ffffff; */
-    font-family: var(--font) ;
-    font-weight: bolder;
-    font-size: 25px;
-    padding: 2px 2px;
-    margin: 2px 52px;
-}
-.nav ul li a:hover{
-    text-decoration: underline;
-    color: rgb(26, 159, 231);
-    transition: 0.4s ease;
-} 
-.boxes{
-    display: flex;
-    width: 60%;
-    height: 90vh;
-    margin: auto;
-    flex-wrap: wrap;
-    /* border: 2px solid black; */
-    position: absolute;
-    top: 8%;
-    left: 18%;   
-    justify-content: space-evenly;
-    
-}
-.box{
-    display: flex;
-    flex-shrink: 100%;
-    /* justify-content: center;
+        :root {
+            --font: 'Ubuntu', sans-serif;
+        }
+
+        .main h1 {
+            position: absolute;
+            top: 13px;
+            left: 105px;
+            color: #ffffff;
+            text-shadow: -3px 6px 2px #393131;
+            font-family: var(--font);
+        }
+
+        .logo img {
+            position: absolute;
+            width: 69px;
+            top: 13px;
+            left: 2%;
+        }
+
+        /*------------------------------- Css for navigation bar------------------------------------- */
+        .nav {
+            background-color: black;
+            /* border: 2px solid black; */
+            width: 100%;
+            height: 55px;
+        }
+
+        .nav ul {
+            float: right;
+            list-style: none;
+            margin-top: 12px;
+
+        }
+
+        .nav ul li {
+            display: inline-block;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            /* text-shadow: 0px 2px 0px #565656; */
+            /* text-shadow: -3px -2px 2px #ffffff; */
+            font-family: var(--font);
+            font-weight: bolder;
+            font-size: 25px;
+            padding: 2px 2px;
+            margin: 2px 52px;
+        }
+
+        .nav ul li a:hover {
+            text-decoration: underline;
+            color: rgb(26, 159, 231);
+            transition: 0.4s ease;
+        }
+
+        .boxes {
+            display: flex;
+            width: 60%;
+            height: 90vh;
+            margin: auto;
+            flex-wrap: wrap;
+            /* border: 2px solid black; */
+            position: absolute;
+            top: 8%;
+            left: 18%;
+            justify-content: space-evenly;
+
+        }
+
+        .box {
+            display: flex;
+            flex-shrink: 100%;
+            /* justify-content: center;
     align-items: center; */
-    margin: 49px;
-    width: 175px;
-    height: 175px;
-    border: 2px solid black;
-    border-radius: 20px;
-    box-shadow: 0px 0px 11px black;
-}
-.box img{
-    position: relative;
-    top: 22%;
-    left: 32%;
-    width: 30%;
-    height: 30%;
-}
-.box a{
-    text-decoration: none;
-    position: relative;
-    top: 72%;
-    left: -3%;
-    font-family: var(--font);
-    font-weight: bolder;
-    font-size: 27px;
-    color: black;
-    text-shadow: 0px 0px 2px black;
-}
-.box a:hover{
-    text-decoration: underline;
-    color: rgb(26, 159, 231);
-    /* text-shadow: rgb(26, 159, 231); */
-    transition: 0.6 ease;
-}
+            margin: 49px;
+            width: 175px;
+            height: 175px;
+            border: 2px solid black;
+            border-radius: 20px;
+            box-shadow: 7px 7px 4px -2px #000000;
+        }
 
+        .box img {
+            position: relative;
+            top: 22%;
+            left: 32%;
+            width: 30%;
+            height: 30%;
+        }
+
+        .box a {
+            text-decoration: none;
+            position: relative;
+            top: 72%;
+            left: -3%;
+            font-family: var(--font);
+            font-weight: bolder;
+            font-size: 27px;
+            color: #444444;
+            text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc, 4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee, 7px 6px 1px #cccccc;
+        }
+        .box a:hover {
+            color: rgb(26, 159, 231);
+            /* text-shadow: rgb(26, 159, 231); */
+            transition: 0.6 ease;
+        }
     </style>
 </head>
 
