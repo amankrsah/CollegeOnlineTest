@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Login or Register</title>
+    <link rel="shortcut icon" href="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg">
+
     <link rel="shortcut icon" href="http://localhost/php_/college_project/assets/logo.jpg">
 
 </head>
@@ -23,8 +25,7 @@
     <div class = "space_top"></div>
     <div id="loginForm">
         <center>
-            
-            <div style="margin-bottom: -10px;margin-top:80px;padding: 25px">Login</div>
+            <div class="title">LOGIN</div>
             <input placeholder="USERNAME">
             <input type="password" placeholder="PASSWORD">
             <a href="http://localhost/php_/CollegeOnlineTest/pages/cpanel.php"><div id="btn" style="margin-top:10px">Login </div></a>
@@ -32,7 +33,7 @@
             <a href="http://localhost/php_/CollegeOnlineTest/pages/register.php"><div id="btn">Register</div></a>
         </center>
     </div>
-    <!-- <?php include('http://localhost/php_/CollegeOnlineTest/components/navbar.php') ?> -->
     <?php include("components/footer.php") ?>
+    <!-- <?php include('http://localhost/php_/CollegeOnlineTest/components/navbar.php') ?> -->
 </body>
 </html>

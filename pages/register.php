@@ -158,7 +158,7 @@
    <div class = "space_top"></div>
 
 <form id="border">
-    <h1 style="color: var(--primary);font-size: 40px; text-align:center">REGISTRATION</h1>
+    <div class="title">REGISTRATION</div>
      <div class="input_style" id="Name">
                    <input type="text" class="f-name" placeholder="First Name">
        

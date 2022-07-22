@@ -75,7 +75,7 @@
         <?php
         for ($i=1; $i < 11; $i++) { 
         echo '<div class="que_no">Question No.'.$i.' </div>
-            <div class = "question">'.$i.'. what if... Strange trapped Strange in time loop...?Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae officiis itaque, ad eaque dolor aspernatur ipsam, commodi quod necessitatibus odio eligendi saepe numquam quo harum! Sunt obcaecati similique doloremque maiores!</div>
+            <div class = "question">'.$i.'. what if... Strange trapped Dormamu in time loop...?Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae officiis itaque, ad eaque dolor aspernatur ipsam, commodi quod necessitatibus odio eligendi saepe numquam quo harum! Sunt obcaecati similique doloremque maiores!</div>
                 <div class = "ans">
                     <div class="option">Option A</div>
                     <div class="option">Option B Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas natus id nesciunt quidem possimus magni est voluptatum repudiandae architecto dolorem magnam neque amet corporis culpa, provident reiciendis? Optio, vel!</div>
