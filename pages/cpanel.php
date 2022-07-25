@@ -1,7 +1,6 @@
 <!-- /*----------------------------------- cpanel code (Anurag) -------------------------------------*/ -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,10 +20,9 @@
 
         }
 
-        body {
-            /* background-color: #67e6ff; */
-            height: 0;
-        }
+        /* body{
+            background-color: #67e6ff;
+        } */
 
         :root {
             --font: 'Ubuntu', sans-serif;
@@ -76,252 +74,104 @@
             padding: 2px 2px;
             margin: 2px 52px;
         }
-
         .nav ul li a:hover {
             text-decoration: underline;
             color: rgb(26, 159, 231);
             transition: 0.4s ease;
         }
-
-        .main-box {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 93vh;
-            margin-top: 5%;
-            justify-items: center;
-            width: 99vw;
-            /* border: 2px solid red; */
-            flex-wrap: wrap;
-        }
-
         .boxes {
             display: flex;
-            width: 68vw;
-            height: 88vh;
-            border: 2px solid #4e4e4e;
-            /* position: relative;
-            top: 10vh;
-            left: 16vw; */
-            border-radius: 60px;
+            width: 65%;
+            justify-content:center;
+            /* align-items:center; */
+            margin: auto;
             flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            box-shadow: 4px -3px 9px 1px #a99e9e, -3px 6px 9px 1px #afafaf, -50px -50px 0px -30px rgb(0 0 0 / 0%);
+            border: 1px solid #4e4e4e;
+            position: absolute;
+            top: 10%;
+            left: 17.5%;
+            justify-content: space-evenly;
+            border-radius: 10px;
+            background-color:var(--cont_color);
+            box-shadow: 0px 0px 10px rgb(71, 71, 71);
         }
-
-
         .box {
-            /* background-color: #67e6ff; */
-            /* background-color: snow; */
+            background-color: rgba(219, 226, 255, 0.702);
+            /* background-color: white; */
             display: flex;
-            margin: 0% 5%;
-            width: 180px;
-            height: 180px;
-            border: 2px solid black;
-            border-radius: 20px;
-            box-shadow: 7px 7px 4px -2px #000000;
-            /* flex-wrap: wrap; */
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            text-align:center;
+            flex-shrink: 100%;
+            margin: 29px;
+            width: 175px;
+            height: 175px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgb(71, 71, 71);
         }
-
+        
         .box:hover {
-            /* width: 160px;
-            height: 160px; */
-            background-color: #efefef;
-            box-shadow: 7px 7px 2px -2px #000000;
-            transition: 0.3s ease;
-            ;
+            cursor:pointer;
+            background-color: rgba(185, 216, 255, 0.801);
+            box-shadow: 0px 0px 20px rgb(71, 71, 71);
+            transition: 0.2s ease;;
         }
-
         .box img {
-            /* position: relative;
-            top: 4vh;
-            left: 2.5vw;*/
-            height: 5vh;
-            border-radius: 28px;
+            position: relative;
+            top: 22%;
+            left: 32%;
+            width: 30%;
+            height: 30%;
         }
-
-        .box a {
+        .boxes p{
+            font-weight:500;
+            color:purple;
+            /* margin:auto; */
+            text-align:center;
+            margin-top: 70%;
+            margin-left: -5%;
+            /* margin:auto; */
+            font-size:150%;
+        }
+        /* .box a {
+            text-align:center;
             text-decoration: none;
-            /* position: relative;
-            top: 9vh;
-            left: -1.7vw; */
             font-family: var(--font);
             font-weight: bolder;
             font-size: 27px;
-            color: #444444;
+            color: rgb(5, 51, 255);
             text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc, 4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee, 7px 6px 1px #cccccc;
+        } */
+        .box:hover{
+            cursor: pointer;
+            box-shadow: 0px 0px 20px rgb(71, 71, 71);
+
         }
 
-        .box a:hover {
-            color: rgb(26, 159, 231);
-            /* text-shadow: rgb(26, 159, 231); */
-            transition: 0.3s ease;
-        }
-
-        @media (max-width : 1260px) {
-            .box {
-                width: 165px;
-                height: 165px;
-            }
-        }
-
-        @media (max-width : 1069px) and (min-width : 754px) {
-            .boxes {
-                display: flex;
-                width: 91vw;
-                height: 73vh;
-                border: 2px solid black;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-            }
-
-            .box {
-                width: 150px;
-                height: 150px;
-            }
-
-            nav ul li {
-                /* color: rgb(5, 51, 255); */
-                display: block;
-                position: relative;
-                left: 0;
-                top: 126%;
-                font: 20px sans-serif;
-                font-weight: normal;
-                float: none;
-                padding: 0px;
-                margin: 9px 19px;
-                text-shadow: 0px 0px 2px rgb(148 148 148);
-                border: none;
-                border-radius: 10px;
-            }
-        }
-
-        @media (max-width : 754px) {
-
-            nav ul li {
-                /* color: rgb(5, 51, 255); */
-                display: block;
-                position: relative;
-                left: 0;
-                top: 98%;
-                font: 18px sans-serif;
-                font-weight: normal;
-                float: none;
-                padding: 0px;
-                margin: 10px 22px;
-                text-shadow: 0px 0px 2px rgb(148 148 148);
-                border: none;
-                border-radius: 10px;
-            }
-
-            .boxes {
-                width: 76vw;
-                height: 116vh;
-                justify-content: space-evenly;
-                margin-top: 11%;
-            }
-
-            .box {
-                width: 140px;
-                height: 140px;
-            }
-
-            .box a {
-                font-size: 21px;
-            }
-
-            .box img {
-                height: 4vh;
-            }
-        }
-
-        @media (max-width: 478px) {
-            .boxes {
-                width: 76vw;
-                height: 116vh;
-                justify-content: space-evenly;
-                margin-top: 11%;
-            }
-
-            .box {
-                width: 120px;
-                height: 120px;
-            }
-        }
-
-        @media (max-width : 407px) {
-            .boxes {
-                width: 79vw;
-                height: 82vh;
-                justify-content: space-evenly;
-                margin-top: 16%;
-            }
-
-            .box {
-                width: 100px;
-                height: 101px;
-            }
-
-            .box a {
-                font-size: 18px;
-            }
-
-            .box img {
-                height: 3vh;
-            }
-        }
-
-        @media (max-width : 407px) {
-            .box {
-                width: 80px;
-                height: 80px;
-            }
-
-            .box a {
-                font-size: 16px;
-            }
-        }
-
-        @media (max-width : 265px) {
-            .boxes {
-                height: 150vh;
-            }
-        }
     </style>
 </head>
 
 <body>
-    <header>
         <!-- <?php include('http://localhost/php_/CollegeOnlineTest/components/navbar.php') ?> -->
         <?php include("../components/navbar.php") ?>
-
-        <div class="main">
+        <!-- <div class="main">
             <div class="logo">
                 <img src="columbia.jpg" alt="loading...">
             </div>
             <h1>Columbia</h1>
+        </div> -->
+        <div class="boxes">
+            <a href=""><div class="box" id="box-1"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
+            <a href=""><div class="box" id="box-2"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
+            <a href=""><div class="box" id="box-3"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
+            <a href=""><div class="box" id="box-4"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
+            <a href=""><div class="box" id="box-5"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
+            <a href=""><div class="box" id="box-6"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
+            <a href=""><div class="box" id="box-7"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
+            <a href=""><div class="box" id="box-8"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
+            <a href=""><div class="box" id="box-9"><img src="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg" alt="loading..."><p>OPTION</p></div></a>
         </div>
-        <div class="main-box">
-            <div class="boxes">
-                <div class="box" id="box-1"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-                <div class="box" id="box-2"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-                <div class="box" id="box-3"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-                <div class="box" id="box-4"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-                <div class="box" id="box-5"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-                <div class="box" id="box-6"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-                <div class="box" id="box-7"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-                <div class="box" id="box-8"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-                <div class="box" id="box-9"><img src="https://uploads.sarvgyan.com/2015/04/Columbia-Institute-of-Engineering-and-Technology-Raipur.jpg" alt="loading..."><a href=""><br><span>Lorem</span></a></div>
-            </div>
-        </div>
-    </header>
-</body>
+        <!-- <?php include("../components/footer.php") ?> -->
+        <!-- <?php include('http://localhost/php_/CollegeOnlineTest/components/navbar.php') ?> -->
+    </body>
 
 </html>
 <!-- /*----------------------------------- Control panel code ends (Anurag) -------------------------------------*/ -->

@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Login or Register</title>
     <link rel="shortcut icon" href="http://localhost/php_/CollegeOnlineTest/assets/logo.jpg">
-
     <link rel="shortcut icon" href="http://localhost/php_/college_project/assets/logo.jpg">
-
 </head>
 <body>
 <!-- <?php include('http://localhost/php_/CollegeOnlineTest/components/navbar.php') ?> -->
